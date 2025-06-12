@@ -60,6 +60,8 @@ A comprehensive AI-powered video generation system built on Azure cloud infrastr
 2. Install backend dependencies:
    ```bash
    cd backend
+   python3 -m venv venv
+   source venv/bin/activate  # On Windows use: venv\Scripts\activate
    pip install -r requirements.txt
    ```
 3. Install frontend dependencies:
