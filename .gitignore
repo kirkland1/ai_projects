@@ -1,0 +1,98 @@
+# Environment variables
+.env
+
+# Python virtual environments
+env/
+venv/
+.env/
+.venv/
+.pip/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+ios/Pods/
+android/.gradle/
+android/app/debug
+android/app/profile
+android/app/release
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+*.iml
+
+# Azure
+*.publishsettings
+*.pfx
+*.key
+
+# Media files
+media_assets/*
+!media_assets/.gitkeep
+
+# Generated videos
+output/
+*.mp4
+*.avi
+*.wmv
+
+# Logs
+*.log
+logs/
+
+# Local databases
+*.sqlite3
+*.db
+
+# Backup and temp files
+*.bak
+*.tmp
+
+# Node.js
+node_modules/
+
+# Test coverage
+coverage/
+
+# Jupyter
+*.ipynb_checkpoints
+
+# Flutter frontend env
+frontend/.env
+
+# Lock files (optional, if not needed)
+*.lock
+
+# Snapshots
+.snapshots/ 
